@@ -1,0 +1,96 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    width: 700px;
+    height: 100%;
+    margin: auto;
+}
+
+.header {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: hidden;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.header a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 900;
+    color: #7c7979;
+}
+
+.header a:hover {
+    border-bottom: solid 4px #7c7979;
+    padding-bottom: 5px;
+}
+
+.header a.selected {
+    border-bottom: solid 4px #fff;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.content {
+    margin-top: 100px;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+.text {
+    font-size: 1.4rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.content button {
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: #7c7979;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer p a:hover {
+    border-bottom: solid 1px #fff;
+}
+
+.features {
+    margin-top: 100px;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+    line-height: 40px;
+}
